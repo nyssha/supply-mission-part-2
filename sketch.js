@@ -57,7 +57,12 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-
+box1.shapeColor=color(255,0,0);
+box2.shapeColor=color(255,0,0);
+box3.shapeColor=color(255,0,0);
+	
+	
+	
   drawSprites();
  
 }
